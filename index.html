@@ -10,22 +10,25 @@
 <body>
 
 <header>
-  <div class="container">
-    <nav class="nav-bar">
-      <div class="logo">
-        <h1>Studio Dentistico</h1>
-        <h3>Dott. Piergiorgio Bertocchi</h3>
-      </div>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">DOTT. BERTOCCHI</a></li>
-        <li><a href="#">SERVIZI</a></li>
-        <li><a href="#">GALLERIA</a></li>
-        <li><a href="#">CONTATTI</a></li>
-      </ul>
-    </nav>
-  </div>
+    <div class="container">
+        <nav class="nav-bar">
+        <div class="logo">
+            <h1>Studio Dentistico</h1>
+            <h3>Dott. Piergiorgio Bertocchi</h3>
+            <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+        </div>
+        
+        <ul id="nav-list">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DOTT. BERTOCCHI</a></li>
+            <li><a href="#">SERVIZI</a></li>
+            <li><a href="#">GALLERIA</a></li>
+            <li><a href="#">CONTATTI</a></li>
+        </ul>
+        </nav>
+    </div>
 </header>
+    
 
 <div class="hero">
   <h2>Welcome to Our Dentist Studio</h2>
@@ -58,7 +61,8 @@
     Tel. 0422-235916<br>
     Fax 0422-269968</p>
     <p>&copy; 2023 Dentist Studio. All rights reserved.</p>
-  </footer>
+</footer>
 
+<script src="index.js"></script>
 </body>
 </html>
